@@ -10,7 +10,7 @@ const geist = Geist({ subsets: ["latin"] });
 const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Administración de Empresas - Universidad Pública de El Alto',
+  title: 'Ciencias del Desarrollo - Universidad Pública de El Alto',
   description: 'Forma el futuro de los líderes empresariales. Obtén tu licenciatura en Administración de Empresas con nuestro programa de clase mundial.',
   generator: 'v0.app',
   
@@ -57,7 +57,7 @@ export default function RootLayout({
           {children}
         </main>
         
-        <Footer />
+       
         <Analytics />
       </body>
     </html>
