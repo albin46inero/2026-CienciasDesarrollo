@@ -688,7 +688,7 @@ export default function OfertasAcademicasPage() {
                   />
 
                   {/* Botones de acción */}
-                  <motion.div 
+                  <motion.div     
                     className="flex flex-col sm:flex-row gap-4"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
