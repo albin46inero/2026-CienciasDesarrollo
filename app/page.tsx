@@ -877,7 +877,8 @@ export default function Home() {
   </motion.div>
 </motion.section>
 
-      
+       {/* ✅ Agrega Footer si lo necesitas en todas las páginas */}
+        <Footer />
       </div>
     </>
   );

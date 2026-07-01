@@ -38,8 +38,7 @@ export default function RootLayout({
           {children}
         </main>
         
-        {/* ✅ Agrega Footer si lo necesitas en todas las páginas */}
-        <Footer />
+       
         
         <Analytics />
       </body>
